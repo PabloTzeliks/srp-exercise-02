@@ -1,11 +1,12 @@
-package SRP_02_APLICADO;
+package pablo.tzeliks.model;
 
 // 1. Entidade de Dados: `Pedido`
 //Permanece quase inalterada, focada apenas em dados.
+
 public class Pedido {
     private String id;
     private double valorBruto;
-    private double valorFinal; // Novo campo para armazenar o valor calculado
+    private double valorFinal;
     private int quantidadeItens;
     private boolean isPago;
     private String emailCliente;
@@ -16,8 +17,9 @@ public class Pedido {
         this.quantidadeItens = quantidadeItens;
         this.isPago = false;
         this.emailCliente = emailCliente;
-        this.valorFinal = valorBruto; // Inicializa com o valor bruto
+        this.valorFinal = valorBruto;
     }
+
     // Getters e Setters
 
     public void setId(String id) {
@@ -42,6 +44,5 @@ public class Pedido {
     public double getValorFinal() { return valorFinal; }
     public void setValorFinal(double valorFinal) { this.valorFinal = valorFinal; }
     public void setPago(boolean pago) { this.isPago = pago; }
-    // ...
 
 }

@@ -1,8 +1,10 @@
-package SRP_02_APLICADO;
+package pablo.tzeliks.service;
 //2. Validação: `ValidadorDeEstoque` (Responsabilidade 1)
 //Responsável **APENAS** por verificar regras de negócio antes do processamento.
 
 // 1. Responsabilidade: Apenas garantir que o pedido pode ser processado.
+
+import pablo.tzeliks.model.Pedido;
 
 public class ValidadorDeEstoque {
     public void validar(Pedido pedido) throws Exception {

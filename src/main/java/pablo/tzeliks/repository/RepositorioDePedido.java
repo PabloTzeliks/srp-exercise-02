@@ -1,9 +1,11 @@
-package SRP_02_APLICADO;
+package pablo.tzeliks.repository;
 
 //4. Persistência: `RepositorioDePedido` (Responsabilidade 3)
 //Responsável **APENAS** pela comunicação com o banco de dados.
 
 // 3. Responsabilidade: Apenas lidar com operações de BD.
+
+import pablo.tzeliks.model.Pedido;
 
 public class RepositorioDePedido {
     public void salvar(Pedido pedido) {

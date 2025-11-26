@@ -1,8 +1,10 @@
-package SRP_02_APLICADO;
+package pablo.tzeliks.service;
  //5. Comunicação Externa: `NotificadorDePedido` (Responsabilidade 4)
 //Responsável **APENAS** pela comunicação com sistemas externos (e-mail, SMS, Webhook, etc.).
 
 // 4. Responsabilidade: Apenas enviar notificações ou comunicar APIs externas.
+
+import pablo.tzeliks.model.Pedido;
 
 public class NotificadorDePedido {
     public void enviarConfirmacao(Pedido pedido) {

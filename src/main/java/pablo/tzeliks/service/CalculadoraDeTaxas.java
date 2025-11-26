@@ -1,9 +1,11 @@
-package SRP_02_APLICADO;
+package pablo.tzeliks.service;
 
 //3. Cálculo de Domínio: `CalculadoraDeTaxas` (Responsabilidade 2)
 //Responsável **APENAS** pela lógica financeira complexa (frete, impostos, descontos, etc.).
 
 // 2. Responsabilidade: Apenas calcular o custo final do pedido.
+
+import pablo.tzeliks.model.Pedido;
 
 public class CalculadoraDeTaxas {
     public double calcularValorFinal(Pedido pedido) {

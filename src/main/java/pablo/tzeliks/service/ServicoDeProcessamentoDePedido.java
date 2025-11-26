@@ -1,8 +1,11 @@
-package SRP_02_APLICADO;
+package pablo.tzeliks.service;
 //6\. Orquestrador: `ServicoDeProcessamentoDePedido` (Classe de Coordenação)
 //Esta nova classe assume a responsabilidade única de coordenar e gerenciar o fluxo de trabalho, garantindo que as
 //classes especializadas sejam chamadas na ordem correta.
 
+
+import pablo.tzeliks.model.Pedido;
+import pablo.tzeliks.repository.RepositorioDePedido;
 
 public class ServicoDeProcessamentoDePedido {
     private final ValidadorDeEstoque validador;

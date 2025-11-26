@@ -1,4 +1,12 @@
-package SRP_02_APLICADO;
+package pablo.tzeliks;
+
+import pablo.tzeliks.model.Pedido;
+import pablo.tzeliks.repository.RepositorioDePedido;
+import pablo.tzeliks.service.CalculadoraDeTaxas;
+import pablo.tzeliks.service.NotificadorDePedido;
+import pablo.tzeliks.service.ServicoDeProcessamentoDePedido;
+import pablo.tzeliks.service.ValidadorDeEstoque;
+
 //7. Classe de Execução (Main)
 public class Aplicacao {
     public static void main(String[] args) {
